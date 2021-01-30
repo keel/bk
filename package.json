@@ -1,6 +1,6 @@
 {
   "name": "bk",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "download bilibili video",
   "main": "app.js",
   "scripts": {
