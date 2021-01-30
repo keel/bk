@@ -4,7 +4,7 @@
 
 ## 安装
 1. 安装nodejs (https://nodejs.org), 选择LTS版本;
-2. 安装ffmpeg (http://ffmpeg.org/download.html), 选择对应系统版本安装;
+2. 安装ffmpeg (http://ffmpeg.org/download.html), 选择对应系统版本安装(也可自行搜索"ffmpegp安装"查找方法);
 3. 命令行进行全局安装,执行:
   ```
   npm i -g bk
@@ -12,7 +12,14 @@
 
 ## 运行
 ### 下载B站视频:
-1. 使用B站账号登录,并从视频详情页面中获取cookie(注意其中会包含"_uuid=");
+1. 获取B站cookie:,并从视频详情页面中获取cookie(注意其中会包含"_uuid=");
+  1. 使用B站账号登录,推荐使用谷歌浏览器(chrome);
+  2. 访问任意一个视频详情页;
+  3. 打开"开发者工具"(右上角3个点的选项>更多工具>开发者工具);
+  4. 在开发者工具最上方选择"Network"标签;
+  5. 刷新这个页面,则会看到很多的网络请求;
+  6. 点击其中的第1个或第2个请求,右边看到"Request Headers"的部分,如果其中有"cookie:",它的值全部复制下来就是需要的cookie;
+  7. 如果请求刷得比较多,再次刷新选择第1个即可,注意它的"Request URL"必须有  "www.bilibili.com" 或 "api.bilibili.com".
 2. 命令行运行
   ```
   bk
