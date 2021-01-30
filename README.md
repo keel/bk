@@ -1,11 +1,11 @@
 # bk
 * 下载B站(Bilibili)视频
-* 下载youtube(使用youtube-dl)
+* 下载youtube(需要youtube-dl)
 
 ## 安装
-1. 安装nodejs
-2. 安装ffmpeg (http://ffmpeg.org/download.html)
-3. 命令行执行:
+1. 安装nodejs (https://nodejs.org), 选择LTS版本;
+2. 安装ffmpeg (http://ffmpeg.org/download.html), 选择对应系统版本安装;
+3. 命令行进行全局安装,执行:
 ```
 npm i -g bk
 ```
@@ -19,7 +19,11 @@ bk
 ```
 
 ### 下载youtube视频:
-1. 命令行运行
+1. 安装youtube-dl
+```
+npm i -g youtube-dl
+```
+2. 命令行运行
 ```
 bk y
 ```
