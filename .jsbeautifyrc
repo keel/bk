@@ -1,0 +1,12 @@
+{
+    "html": {
+        "indent_char": "\t",
+        "indent_size": 1,
+        "allowed_file_extensions": ["html", "jsp", "jst", "def"]
+    },
+    "js": {
+        "allowed_file_extensions": ["js", "json", "eslintrc", "jsbeautifyrc"],
+        "indent_char": " ",
+        "indent_size": 2
+    }
+}

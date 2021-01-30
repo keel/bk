@@ -1,0 +1,59 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data":
+    {
+        "from": "local",
+        "result": "suee",
+        "message": "",
+        "quality": 16,
+        "format": "flv360",
+        "timelength": 66504,
+        "accept_format": "flv,flv720,flv480,flv360",
+        "accept_description": ["高清 1080P", "高清 720P", "清晰 480P", "流畅 360P"],
+        "accept_quality": [80, 64, 32, 16],
+        "video_codecid": 7,
+        "seek_param": "start",
+        "seek_type": "offset",
+        "durl": [
+        {
+            "order": 1,
+            "length": 66504,
+            "size": 2243796,
+            "ahead": "EhA=",
+            "vhead": "AWQAHv/hABpnZAAerNlAoC/5cBEAAAMAAQAAAwAyDxYtlgEABGjr7yw=",
+            "url": "https://upos-sz-mirrorhw.bilivideo.com/upgcxcode/74/22/87382274/87382274-1-15.flv?e=ig8euxZM2rNcNb4g7WdVtW4g7WdVNEVEuCIv29hEn0lqXg8Y2ENvNCImNEVEUJ1miI7MT96fqj3E9r1qNCNEtodEuxTEtodE9EKE9IMvXBvE2ENvNCImNEVEK9GVqJIwqa80WXIekXRE9IMvXBvEuENvNCImNEVEua6m2jIxux0CkF6s2JZv5x0DQJZY2F8SkXKE9IB5QK==\u0026uipk=5\u0026nbs=1\u0026deadline=1612010097\u0026gen=playurl\u0026os=hwbv\u0026oi=1968772544\u0026trid=3ee2c7a9e6084d94b0f1ae428013d7b0u\u0026platform=pc\u0026upsig=331caf6ea72a47470651bc9c30b84283\u0026uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform\u0026mid=39048600\u0026orderid=0,3\u0026agrr=0\u0026logo=80000000",
+            "backup_url": ["https://upos-sz-mirrorhw.bilivideo.com/upgcxcode/74/22/87382274/87382274-1-15.flv?e=ig8euxZM2rNcNb4g7WdVtW4g7WdVNEVEuCIv29hEn0lqXg8Y2ENvNCImNEVEUJ1miI7MT96fqj3E9r1qNCNEtodEuxTEtodE9EKE9IMvXBvE2ENvNCImNEVEK9GVqJIwqa80WXIekXRE9IMvXBvEuENvNCImNEVEua6m2jIxux0CkF6s2JZv5x0DQJZY2F8SkXKE9IB5QK==\u0026uipk=5\u0026nbs=1\u0026deadline=1612010097\u0026gen=playurl\u0026os=hwbv\u0026oi=1968772544\u0026trid=3ee2c7a9e6084d94b0f1ae428013d7b0u\u0026platform=pc\u0026upsig=331caf6ea72a47470651bc9c30b84283\u0026uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform\u0026mid=39048600\u0026orderid=1,3\u0026agrr=0\u0026logo=40000000", "https://upos-sz-mirrorhwb.bilivideo.com/upgcxcode/74/22/87382274/87382274-1-15.flv?e=ig8euxZM2rNcNb4g7WdVtW4g7WdVNEVEuCIv29hEn0lqXg8Y2ENvNCImNEVEUJ1miI7MT96fqj3E9r1qNCNEtodEuxTEtodE9EKE9IMvXBvE2ENvNCImNEVEK9GVqJIwqa80WXIekXRE9IMvXBvEuENvNCImNEVEua6m2jIxux0CkF6s2JZv5x0DQJZY2F8SkXKE9IB5QK==\u0026uipk=5\u0026nbs=1\u0026deadline=1612010097\u0026gen=playurl\u0026os=hwbbv\u0026oi=1968772544\u0026trid=3ee2c7a9e6084d94b0f1ae428013d7b0u\u0026platform=pc\u0026upsig=d7e95d9cc5ee942916dd06f8beeb34fb\u0026uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform\u0026mid=39048600\u0026orderid=2,3\u0026agrr=0\u0026logo=40000000"]
+        }],
+        "support_formats": [
+        {
+            "quality": 80,
+            "format": "flv",
+            "new_description": "1080P 高清",
+            "display_desc": "1080P",
+            "superscript": ""
+        },
+        {
+            "quality": 64,
+            "format": "flv720",
+            "new_description": "720P 高清",
+            "display_desc": "720P",
+            "superscript": ""
+        },
+        {
+            "quality": 32,
+            "format": "flv480",
+            "new_description": "480P 清晰",
+            "display_desc": "480P",
+            "superscript": ""
+        },
+        {
+            "quality": 16,
+            "format": "flv360",
+            "new_description": "360P 流畅",
+            "display_desc": "360P",
+            "superscript": ""
+        }]
+    }
+}

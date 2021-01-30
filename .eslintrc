@@ -1,0 +1,33 @@
+{
+"parserOptions":
+{
+    "sourceType": "module",
+    "ecmaVersion": 8
+},
+  "rules": {
+    "no-var": [2],
+    "object-shorthand": [2, "always", {
+      ignoreConstructors: false,
+      avoidQuotes: true,
+    }],
+    "prefer-const": [2, {
+      destructuring: "any",
+      ignoreReadBeforeAssign: true,
+    }],
+    "indent": [1, 2],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "no-unused-vars": [1],
+    "no-console": [0]
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "mocha": true,
+    "jquery": true,
+    "es6": true
+  },
+
+  "extends": "eslint:recommended"
+}

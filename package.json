@@ -1,0 +1,28 @@
+{
+  "name": "bk",
+  "version": "1.1.2",
+  "description": "download bilibili video",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"no test.\""
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "bk": "app.js"
+  },
+  "author": "Keel",
+  "license": "MIT",
+  "keywords": [
+    "bilibili",
+    "bili",
+    "video"
+  ],
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "ktool": "^1.0.81",
+    "progress-stream": "^2.0.0",
+    "readline-sync": "^1.4.9",
+    "single-line-log": "^1.1.2",
+    "youtube-dl": "^2.0.1"
+  }
+}
