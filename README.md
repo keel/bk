@@ -24,7 +24,7 @@
 2. [可选]获取B站cookie(具体操作参考最下方)并按提示进行配置,可支持对应账号的视频质量,如不配置也可以(不保证有最高质量选择),注意老cookie会失败,需要更新;
 3. 处理好的视频可以命令执行当前目录下的video目录下找到;
 4. 样例:
-![Alt text](bk.jpg)
+![样例图](https://ccac.top/imgs/bk.jpg)
 
 ### 下载youtube视频:
 1. 安装youtube-dl
