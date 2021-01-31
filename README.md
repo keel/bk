@@ -13,7 +13,7 @@
   ```
   npm i -g bk
   ```
-3. [可选]安装ffmpeg (http://ffmpeg.org/download.html) 以支持合并和转码, 选择对应系统版本安装(也可自行搜索"ffmpegp安装"查找方法);
+3. [可选]安装ffmpeg (http://ffmpeg.org/download.html) 以支持转码与合并, 选择对应系统版本安装(也可自行搜索"ffmpegp安装"查找方法);
 
 ## 运行
 ### 下载B站视频:
@@ -51,5 +51,6 @@ https://api.bilibili.com/x/web-interface/view?aid=${avid}
 3. 打开"开发者工具"(右上角3个点的选项>更多工具>开发者工具);
 4. 在开发者工具最上方选择"Network"标签;
 5. 刷新这个页面,则会看到很多的网络请求;
-6. 点击其中的第1个或第2个请求,右边看到"Request Headers"的部分,如果其中有"cookie:",在它的值找到其中的"_uuid=.....;"复制,就是需要的cookie;
+6. 点击其中的第1个或第2个请求,右边看到"Request Headers"的部分,如果其中有"cookie:",且它的值中包含"_uuid=.....;",就是需要的cookie;
 7. 如果请求刷得比较多,再次刷新选择第1个即可,注意它的"Request URL"必须有  "www.bilibili.com" 或 "api.bilibili.com".
+8. cookie配置后将具备与此账号相同的权限(如大会员权限),不配置cookie则是普通权限,仅对下载视频质量的选择有影响;
