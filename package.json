@@ -1,6 +1,6 @@
 {
   "name": "bk",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "Download bilibili videos;B站视频下载;支持新版BV号;支持分P及一键多P下载;支持多质量选择;",
   "main": "app.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/keel/bk#readme",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
-    "ktool": "^1.0.86",
+    "ktool": "^1.0.87",
     "progress-stream": "^2.0.0",
     "single-line-log": "^1.1.2"
   }
